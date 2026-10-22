@@ -1,0 +1,15 @@
+generated: '2026-10-22'
+method: none
+status: none
+name: Premier Investments MCP server
+description: >-
+  No official hosted or local MCP server was found for Premier Investments Limited (ASX:PMV).
+  The pre-flight contract discovery on premierinvestments.com.au and www.premierinvestments.com.au
+  reported MCP, OpenAPI, AsyncAPI and GraphQL as absent, and a web search on 2026-10-22 turned up no
+  provider MCP listing. No candidate tool list was derived because the repo holds no OpenAPI contract
+  to derive one from.
+tools: []
+deployment:
+  mode: none
+  auth: unknown
+  verified: searched

@@ -1,0 +1,18 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://premierinvestments.com.au/
+- https://www.premierinvestments.com.au/about-us/board-policies/
+- https://www.premierinvestments.com.au/page-sitemap.xml
+- https://www.premierinvestments.com.au/wp-content/uploads/2021/10/PREMIER-CODE-OF-CONDUCT-October-2021.pdf
+- https://www.premierinvestments.com.au/wp-content/uploads/2026/09/PREMIER-INVESTMENTS-CORPORATE-GOVERNANCE-STATEMENT-2026.pdf
+signals: {}
+note: >-
+  The pre-flight dossier had no legal_pages. The corporate site (homepage 200, board-policies page 200, page sitemap 200)
+  links no privacy policy, terms, cookie, accessibility, subprocessor or transparency page; its published policies are
+  corporate-governance PDFs (code of conduct, whistleblower, board/audit charters, governance statement). The only
+  privacy language is the Code of Conduct (October 2021), section 3.4 Privacy: "Premier is committed to protecting
+  personal information and meeting its legal privacy responsibilities in the countries in which we operate." That is a
+  general commitment and does not establish any catalog signal (no request mechanism, retention period, residency,
+  subprocessor list or breach-notification term). Consumer privacy policies, if any, would sit on the retail brand sites
+  (Smiggle, Peter Alexander), which were not part of this record.

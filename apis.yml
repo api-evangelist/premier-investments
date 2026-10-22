@@ -1,23 +1,81 @@
 aid: premier-investments
+
 name: Premier Investments
-description: 'Premier Investments is a company surfaced via the API Evangelist harvest backlog (source:
-  australia-apidays-2026) and added to the network as a stub for full-pipeline profiling.'
+
+description: Premier Investments Limited is an Australian public company limited by shares, listed on the Australian Securities Exchange (ASX) since 15 December 1987. It was established as an investment vehicle to maximise growth in capital returns to shareholders through the acquisition of controlling or strategic shareholdings in premier Australian companies, with a particular focus on retailing, importing and distributing. Its corporate site publishes investor information, financial results, annual reports, ASX announcements and board policies; no public developer API or documentation was found on it.
+
 url: https://raw.githubusercontent.com/api-evangelist/premier-investments/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:australia-apidays-2026
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+- Retail
+- Investment
+- ASX Listed
+- Australia
+- Importing
+- Distribution
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+image: https://www.premierinvestments.com.au/wp-content/uploads/2025/01/Peter-Alexander-in-White-City.jpg
+
 common:
+- type: Hosts
+  url: hosts/premier-investments-hosts.yml
+- type: DomainSecurity
+  url: security/premier-investments-domain-security.yml
 - type: Website
-  url: https://premierinvestments.com.au/
+  url: https://www.premierinvestments.com.au/
+- type: AboutUs
+  url: https://www.premierinvestments.com.au/about-us/
+- type: Brands
+  url: https://www.premierinvestments.com.au/our-brands/
+- type: InvestorRelations
+  url: https://www.premierinvestments.com.au/financial-results/
+- type: News
+  url: https://www.premierinvestments.com.au/asx-announcements-2/
+- type: Support
+  url: https://www.premierinvestments.com.au/contact-us/
+- type: RSSFeed
+  url: https://www.premierinvestments.com.au/feed/
+
+apis: []
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: Corporate WordPress site names Premier Investments Ltd (ASX-listed). No developer portal, docs, terms or privacy page linked from the site.
+  evidence:
+  - url: https://premierinvestments.com.au/
+    status: 200
+  - url: https://www.premierinvestments.com.au/about-us/
+    status: 200
+  - url: https://www.premierinvestments.com.au/our-brands/
+    status: 200
+  - url: https://www.premierinvestments.com.au/contact-us/
+    status: 200
+  - url: https://www.premierinvestments.com.au/shareholder-service/
+    status: 200
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 9
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=anthropic,regulatory=anthropic

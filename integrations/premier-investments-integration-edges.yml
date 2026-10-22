@@ -1,0 +1,20 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/premier-investments/integrations
+- https://n8n.io/integrations/premier-investments/
+- https://composio.dev/toolkits/premier-investments
+- https://monid.ai/tools/premier-investments
+checked:
+- https://www.premierinvestments.com.au/
+- https://www.premierinvestments.com.au/our-brands/
+- https://composio.dev/toolkits/premier-investments
+- https://monid.ai/tools/premier-investments
+- https://n8n.io/integrations/premier-investments/
+- https://zapier.com/apps/premier-investments/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
+note: Corporate investor site only (www.premierinvestments.com.au); no API, no app on integration marketplaces,
+  no integrations/partners page, and no contract in the repo to read edges from.
